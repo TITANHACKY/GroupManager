@@ -72,7 +72,7 @@ def import_data(bot: Bot, update):
 					text = "Backup comes from another chat, I can't return another chat to this chat"
 				return msg.reply_text(text, parse_mode="markdown")
 		except:
-			return msg.reply_text("There is problem while importing the data! Please ask in @HarukaAyaGroup about why this happened.")
+			return msg.reply_text("There is problem while importing the data!")
 		# Check if backup is from self
 		try:
 			if str(bot.id) != str(data[str(chat.id)]['bot']):
