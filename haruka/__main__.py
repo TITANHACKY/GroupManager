@@ -24,22 +24,22 @@ PM_START = """Hello {}, my name is {}!
 
 You know how hard it is sometimes to manage group so here is the solution for you
 
-I'm group manager bot and Anti-spam for RR Players🃏
+I'm group manager bot with few more special features.
 
-Activate Anti-spam protection in your BM by this command : 
+Activate Anti-spam protection in  by this command : 
 /antispam on 
 
-My owner is [Aditya 🇮🇳](t.me/xditya)
+My owner is [TITAN HACKY](t.me/TITANHACKY)
 
-Special thanks to [this person](t.me/denver02) for helping me.
 
-Deploy a bot like me [now](www.github.com/xditya/GroupManager)
 
-Watch [video tutorial](https://www.youtube.com/watch?v=gXXFpTAk6Vo&feature=youtu.be) on deploying me.
+
+
+
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
- Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
+ Add me to a group And See My Managing Features.
 """
 
 
