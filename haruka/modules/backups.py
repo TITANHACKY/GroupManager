@@ -89,7 +89,7 @@ def import_data(bot: Bot, update):
 			for mod in DATA_IMPORT:
 				mod.__import_data__(str(chat.id), data)
 		except Exception:
-			msg.reply_text("An error occurred while recovering your data. The process failed. If you experience a problem with this, please ask in @HarukaAyaGroup . My owner and community will be happy to help. Also, bugs report makes me even better!\nThank you!")
+			msg.reply_text("An error occurred while recovering your data. The process failed.")
 
 			LOGGER.exception("Imprt for the chat %s with the name %s failed.", str(chat.id), str(chat.title))
 			return
@@ -313,7 +313,7 @@ __help__ = """
 
  - /export: export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
 
-This module is still in beta! Report bugs in @HarukaAyaGroup !
+This module is still in beta!
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data)
